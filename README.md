@@ -1,18 +1,19 @@
-# Typescript Kickstart
-This repository is built for kickstarting your typescript project with eslint in no time!  
+# Google Colaboratory ipynb fixer
+Is your colab file corrupted and unable to initialize at all? well, this app will kill all of the metadata field for google colab.
 
-## GitHub Actions Status
-**Warning :** Make sure you change this badge locations and names before you use it on your repository!  
+## How to use this
+1. Export as ipynb from google colab
+2. save as work.ipynb at working directory
+3. run this.
+4. use work.completed.ipynb
+5. ???
+6. PROFIT!
+
+## GitHub Actions Status 
 
 | Name                      | Status                                                                                                         |
 |---------------------------|----------------------------------------------------------------------------------------------------------------|
-| ESLint                    | ![ESLint](https://github.com/Alex4386/typescript-kickstart/workflows/ESLint/badge.svg)                         |
-
-## I want to use this configuration with React! 
-Go to [.eslintrc.js](.eslintrc.js) file and uncomment.  
-
-## I want to update the dependencies!
-run `yarn upgrade`
+| ESLint                    | ![ESLint](https://github.com/Alex4386/colab-fixer/workflows/ESLint/badge.svg)                                  |
 
 ## License
 [WTFPL](LICENSE)
